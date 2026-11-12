@@ -1,0 +1,328 @@
+{
+  "anova_f_test": [
+    {
+      "feature": "Area",
+      "f_score": 29014.84,
+      "p_value": 0.0,
+      "score_normalized": 100.0,
+      "rank": 1
+    },
+    {
+      "feature": "ConvexArea",
+      "f_score": 28960.45,
+      "p_value": 0.0,
+      "score_normalized": 99.81,
+      "rank": 2
+    },
+    {
+      "feature": "EquivDiameter",
+      "f_score": 25488.18,
+      "p_value": 0.0,
+      "score_normalized": 87.85,
+      "rank": 3
+    },
+    {
+      "feature": "Perimeter",
+      "f_score": 24327.02,
+      "p_value": 0.0,
+      "score_normalized": 83.84,
+      "rank": 4
+    },
+    {
+      "feature": "MinorAxisLength",
+      "f_score": 22431.93,
+      "p_value": 0.0,
+      "score_normalized": 77.31,
+      "rank": 5
+    },
+    {
+      "feature": "MajorAxisLength",
+      "f_score": 21631.47,
+      "p_value": 0.0,
+      "score_normalized": 74.55,
+      "rank": 6
+    },
+    {
+      "feature": "ShapeFactor2",
+      "f_score": 12203.84,
+      "p_value": 0.0,
+      "score_normalized": 42.06,
+      "rank": 7
+    },
+    {
+      "feature": "ShapeFactor1",
+      "f_score": 12101.1,
+      "p_value": 0.0,
+      "score_normalized": 41.71,
+      "rank": 8
+    },
+    {
+      "feature": "AspectRation",
+      "f_score": 10198.17,
+      "p_value": 0.0,
+      "score_normalized": 35.15,
+      "rank": 9
+    },
+    {
+      "feature": "Compactness",
+      "f_score": 9991.05,
+      "p_value": 0.0,
+      "score_normalized": 34.43,
+      "rank": 10
+    },
+    {
+      "feature": "ShapeFactor3",
+      "f_score": 9734.66,
+      "p_value": 0.0,
+      "score_normalized": 33.55,
+      "rank": 11
+    },
+    {
+      "feature": "Eccentricity",
+      "f_score": 8159.78,
+      "p_value": 0.0,
+      "score_normalized": 28.12,
+      "rank": 12
+    },
+    {
+      "feature": "roundness",
+      "f_score": 6069.85,
+      "p_value": 0.0,
+      "score_normalized": 20.92,
+      "rank": 13
+    },
+    {
+      "feature": "ShapeFactor4",
+      "f_score": 1263.08,
+      "p_value": 0.0,
+      "score_normalized": 4.35,
+      "rank": 14
+    },
+    {
+      "feature": "Solidity",
+      "f_score": 633.4,
+      "p_value": 0.0,
+      "score_normalized": 2.18,
+      "rank": 15
+    },
+    {
+      "feature": "Extent",
+      "f_score": 427.25,
+      "p_value": 0.0,
+      "score_normalized": 1.47,
+      "rank": 16
+    }
+  ],
+  "random_forest_importance": [
+    {
+      "feature": "ShapeFactor3",
+      "importance": 0.1021,
+      "importance_percentage": 10.21,
+      "rank": 1
+    },
+    {
+      "feature": "Compactness",
+      "importance": 0.0921,
+      "importance_percentage": 9.21,
+      "rank": 2
+    },
+    {
+      "feature": "ShapeFactor1",
+      "importance": 0.0884,
+      "importance_percentage": 8.84,
+      "rank": 3
+    },
+    {
+      "feature": "Perimeter",
+      "importance": 0.0858,
+      "importance_percentage": 8.58,
+      "rank": 4
+    },
+    {
+      "feature": "MinorAxisLength",
+      "importance": 0.0846,
+      "importance_percentage": 8.46,
+      "rank": 5
+    },
+    {
+      "feature": "MajorAxisLength",
+      "importance": 0.082,
+      "importance_percentage": 8.2,
+      "rank": 6
+    },
+    {
+      "feature": "ConvexArea",
+      "importance": 0.0752,
+      "importance_percentage": 7.52,
+      "rank": 7
+    },
+    {
+      "feature": "Eccentricity",
+      "importance": 0.067,
+      "importance_percentage": 6.7,
+      "rank": 8
+    },
+    {
+      "feature": "EquivDiameter",
+      "importance": 0.0639,
+      "importance_percentage": 6.39,
+      "rank": 9
+    },
+    {
+      "feature": "Area",
+      "importance": 0.0539,
+      "importance_percentage": 5.39,
+      "rank": 10
+    },
+    {
+      "feature": "roundness",
+      "importance": 0.0531,
+      "importance_percentage": 5.31,
+      "rank": 11
+    },
+    {
+      "feature": "AspectRation",
+      "importance": 0.0513,
+      "importance_percentage": 5.13,
+      "rank": 12
+    },
+    {
+      "feature": "ShapeFactor2",
+      "importance": 0.0402,
+      "importance_percentage": 4.02,
+      "rank": 13
+    },
+    {
+      "feature": "ShapeFactor4",
+      "importance": 0.0306,
+      "importance_percentage": 3.06,
+      "rank": 14
+    },
+    {
+      "feature": "Solidity",
+      "importance": 0.0184,
+      "importance_percentage": 1.84,
+      "rank": 15
+    },
+    {
+      "feature": "Extent",
+      "importance": 0.0116,
+      "importance_percentage": 1.16,
+      "rank": 16
+    }
+  ],
+  "composite_ranking": [
+    {
+      "feature": "Perimeter",
+      "anova_rank": 4,
+      "rf_rank": 4,
+      "average_rank": 4.0,
+      "final_rank": 1
+    },
+    {
+      "feature": "ConvexArea",
+      "anova_rank": 2,
+      "rf_rank": 7,
+      "average_rank": 4.5,
+      "final_rank": 2
+    },
+    {
+      "feature": "MinorAxisLength",
+      "anova_rank": 5,
+      "rf_rank": 5,
+      "average_rank": 5.0,
+      "final_rank": 3
+    },
+    {
+      "feature": "Area",
+      "anova_rank": 1,
+      "rf_rank": 10,
+      "average_rank": 5.5,
+      "final_rank": 4
+    },
+    {
+      "feature": "ShapeFactor1",
+      "anova_rank": 8,
+      "rf_rank": 3,
+      "average_rank": 5.5,
+      "final_rank": 5
+    },
+    {
+      "feature": "EquivDiameter",
+      "anova_rank": 3,
+      "rf_rank": 9,
+      "average_rank": 6.0,
+      "final_rank": 6
+    },
+    {
+      "feature": "MajorAxisLength",
+      "anova_rank": 6,
+      "rf_rank": 6,
+      "average_rank": 6.0,
+      "final_rank": 7
+    },
+    {
+      "feature": "Compactness",
+      "anova_rank": 10,
+      "rf_rank": 2,
+      "average_rank": 6.0,
+      "final_rank": 8
+    },
+    {
+      "feature": "ShapeFactor3",
+      "anova_rank": 11,
+      "rf_rank": 1,
+      "average_rank": 6.0,
+      "final_rank": 9
+    },
+    {
+      "feature": "ShapeFactor2",
+      "anova_rank": 7,
+      "rf_rank": 13,
+      "average_rank": 10.0,
+      "final_rank": 10
+    },
+    {
+      "feature": "Eccentricity",
+      "anova_rank": 12,
+      "rf_rank": 8,
+      "average_rank": 10.0,
+      "final_rank": 11
+    },
+    {
+      "feature": "AspectRation",
+      "anova_rank": 9,
+      "rf_rank": 12,
+      "average_rank": 10.5,
+      "final_rank": 12
+    },
+    {
+      "feature": "roundness",
+      "anova_rank": 13,
+      "rf_rank": 11,
+      "average_rank": 12.0,
+      "final_rank": 13
+    },
+    {
+      "feature": "ShapeFactor4",
+      "anova_rank": 14,
+      "rf_rank": 14,
+      "average_rank": 14.0,
+      "final_rank": 14
+    },
+    {
+      "feature": "Solidity",
+      "anova_rank": 15,
+      "rf_rank": 15,
+      "average_rank": 15.0,
+      "final_rank": 15
+    },
+    {
+      "feature": "Extent",
+      "anova_rank": 16,
+      "rf_rank": 16,
+      "average_rank": 16.0,
+      "final_rank": 16
+    }
+  ]
+}

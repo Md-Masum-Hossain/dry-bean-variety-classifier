@@ -1,0 +1,51 @@
+# ==============================================================================
+# Docker Ignore - Keep build context lightweight & exclude frontend / dev assets
+# ==============================================================================
+
+# Exclude Frontend application and Node artifacts
+frontend/
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+build/
+
+# Exclude Python virtual environments & bytecode
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Exclude raw dataset (keep only data/processed/)
+data/raw/
+**/data/raw/
+*.xlsx
+
+# Exclude ML pipeline training orchestrators (backend only serves pre-built artifacts)
+ml_pipeline/
+
+# Exclude Git, CI/CD, and local metadata
+.git/
+.github/
+.gitignore
+.dockerignore
+
+# Exclude Environment configs and local launcher scripts
+.env*
+start_all.bat
+start_all.ps1
+
+# Exclude OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
